@@ -1,0 +1,400 @@
+body {
+	margin:0;
+    margin: 0 auto;
+	padding:0;
+    font-family: monospace;
+    background-color: #f8f4f0;
+    
+}
+
+
+/* Header navigation*/	
+.header{
+    display: flex;
+   justify-content: space-between;
+    
+}
+.logo {
+   padding-left: 20px;
+	
+}
+.navigation {
+  max-width: 1080px;
+  
+  margin-left: -150px;
+}
+.navigation ul {
+	list-style:none;
+    display: flex;
+    
+   
+  
+}
+.navigation li {
+	padding: 20px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+	color:#555552;
+    font-family: monospace;
+}
+
+.navigation li:hover{
+	color:white;
+	background:black;
+	border-radius: 9px;
+}
+
+.rounded-button {
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px; 
+    text-align: center;
+    color: #555552;
+    border-color: #555552;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: monospace;
+    
+}
+/* caption */	
+.hero-caption{
+
+	    color: black;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: monospace;
+	
+
+}
+.hero-image{
+	background: white center center no-repeat;
+	
+   
+    height: 370px;
+	margin: 0 auto;
+	background-size: cover;
+		
+}
+
+.small-caption{
+    font-size: 30px;
+}
+/* About me container*/	
+.about-me{
+	
+	
+	
+margin-top:50px;
+padding-top:27px;
+display:flex;
+justify-content:space-evenly ;
+flex-wrap: wrap;
+opacity: 0; 
+ transition: opacity 1s ease-in-out; 
+}
+.profile-picture{
+    
+    border-radius: 15px; 
+    overflow: hidden; 
+    width: 100%; 
+    height: auto; 
+}
+
+.main-about-me{
+	
+	
+    justify-content: center;
+    flex: 1; /* Allow items to take equal width within the container */
+    max-width: 400px; /* Limit the maximum width of each item */
+    margin: 10px; /* Add some spacing between items */
+    
+}
+.role{
+    margin-top:-13px;
+    color:gray;
+    font-size: 20px;
+    
+}
+.about-me-text{
+    font-size: 20px;
+	margin-left:3px
+	
+	
+
+}
+
+
+.contact-me {
+ 
+    padding: 10px 20px;
+    border-radius: 25px; 
+    color: #555552;
+    border-color: #555552;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: monospace;
+    
+    margin-left:-2px;
+    
+}
+
+
+/* Service container*/	
+
+.services{
+
+ margin-top: 150px;
+ margin-bottom: 150px;
+ 
+}
+.service-container {
+ 
+        display: flex;
+        flex-wrap: wrap;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+        
+    }
+
+.service-box{
+    width: 450px; /* Set your desired width */
+    height: 250px; /* Set your desired height */
+    border: 1px solid #ccc; /* Add a border for visibility */
+    padding: 20px; /* Add padding if needed */
+    margin: 20px; /* Add margin if needed */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+    text-align: center;
+}
+
+.service-box img {
+    
+    height: 200px; /* Set your desired height for the images */
+    margin-bottom: 15px; /* Add margin to separate image from text */
+    border-radius: 10px 10px 10px 10px ;
+}
+
+
+
+
+.main-service-text{
+	text-align: center;
+
+	
+	padding-top:50px;
+	
+	font-size: 60px;
+}
+
+	
+
+
+/* Lets work together container*/	
+.form-title{
+ 
+    font-size: 50px;
+    font-weight: 600;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+gap: 0px 80px;
+align-items: center;
+padding:30px 30px;
+margin-bottom: 70px;
+
+
+}
+.form-container {
+    max-width: 700px;
+    margin:0;
+    padding: 20px;
+    flex: 1;
+    margin-top:-70px;
+    
+   
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height:50px;
+}
+
+textarea {
+    resize: vertical;
+  
+        height: 100px; /* Adjust the height according to your preference */
+    
+}
+
+
+.submit-button {
+    background-color: black;
+    color: #fff;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: gray;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container textarea {
+    font-size: 18px; /* Adjust the size according to your preference */
+}
+
+
+
+/*FOOTER*/	
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+	
+    padding: 10px 0;
+	
+	
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        margin-left: 10px;
+    }
+    
+    .header {
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .navigation {
+        margin-left: 0;
+       margin-top: -10px;
+      
+    }
+    
+    .logo {
+        margin-left: 28px;
+        
+    }
+    .rounded-button{
+        margin-top: -5px;
+        margin-left: 30px;
+    }
+
+    .hero-caption{
+        padding-top:90px;
+        padding-bottom: 60px;
+        font-size: 50px;
+    }
+    .small-caption{
+        font-size: 20px;
+    
+    }
+    .main-about-me {
+        max-width: 100%; /* Allow items to take full width on smaller screens */
+    }
+    .contact-container{
+        display: flex;
+        justify-content: center;
+    gap: 0px 0px;
+    align-items: center;
+    
+    
+    }
+
+}
+
+     /*JS or Animations*/
+     .service-box img {
+       
+        transition: transform 0.3s ease-in-out; 
+    }
+    
+    .service-box:hover img {
+        transform: scale(1.1); 
+    }
+
+     .slide-in {
+        transform: translateX(-100%);
+        animation: slideInFromLeft 1s ease-in-out;
+    }
+    
+    @keyframes slideInFromLeft {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    
+    .slide-in-right {
+        transform: translateX(100%);
+        animation: slideInFromRight 1s ease-in-out;
+    }
+    
+    @keyframes slideInFromRight {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    
+    .slide-down {
+        transform: translateY(-100%);
+        animation: slideDown 1s ease-in-out;
+    }
+    
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    
+     
+
+
+
